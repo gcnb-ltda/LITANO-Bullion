@@ -1,22 +1,30 @@
-LITANO Bullion v1.0
-Tema WordPress e-commerce sem WooCommerce.
+LITANO Bullion v1.1.0 — United States
 
-Inclui:
-- Produtos LITANO (CPT)
-- Metais (taxonomia)
-- Campos: SKU, metal, peso, pureza, refinaria/mint, origem, preço, estoque, status, premium e entrega
-- Catálogo e página individual
-- Carrinho em localStorage
-- Checkout próprio
-- Pedidos LITANO no painel
-- E-mail ao administrador
-- Criação automática de Bullions, Carrinho e Checkout
-- Layout responsivo preto/dourado
+WooCommerce-free WordPress ecommerce theme for physical bullion and precious metals.
 
-Observação: o checkout registra o pedido comercial. Não executa Pix automático, cartão, KYC/AML, custódia ou atualização spot automática. Essas integrações devem ser conectadas para liquidação financeira real.
+Features
+- U.S.-focused English storefront
+- USD pricing
+- LITANO Bullion custom product type
+- Metals taxonomy
+- SKU, metal, weight, fineness, refinery/mint, origin, USD price, stock, availability, premium and shipping fields
+- Product catalog and individual product pages
+- Browser cart using localStorage
+- Native checkout/order-request workflow
+- U.S. address fields: Street Address, City, State and ZIP Code
+- Bank Wire / Commercial Review workflow
+- LITANO Orders inside WordPress admin
+- Administrator email notification
+- Responsive black/gold premium interface
+- No WooCommerce dependency
 
-Instalação:
-1. Aparência > Temas > Adicionar novo > Enviar tema.
-2. Envie o ZIP e ative.
-3. Configurações > Links permanentes > Salvar alterações.
-4. Cadastre produtos em Produtos LITANO.
+Important
+The checkout records an order request. Displayed pricing and inventory remain subject to final confirmation. The theme does not by itself provide payment processing, live spot pricing, custody, identity verification, AML/KYC, tax calculation, shipping insurance, sanctions screening or regulatory compliance. Those services must be implemented/configured before using the storefront for live bullion settlement.
+
+Installation
+1. Install the theme in WordPress.
+2. Activate LITANO Bullion.
+3. Open Settings > Permalinks and save once.
+4. Add inventory under LITANO Bullion.
+5. Set product images and bullion specifications.
+6. Publish products.
