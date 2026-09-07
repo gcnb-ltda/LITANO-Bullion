@@ -1,0 +1,1 @@
+<?php get_header(); ?><main class="litano-section"><div class="litano-container"><div class="litano-eyebrow">PRECIOUS METALS</div><h1>Bullion Products</h1><?php echo do_shortcode('[litano_catalog]'); ?></div></main><?php get_footer(); ?>
