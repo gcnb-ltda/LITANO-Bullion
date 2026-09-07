@@ -1,0 +1,1 @@
+<?php get_header(); ?><main class="litano-section"><div class="litano-container content-page"><?php while(have_posts()):the_post(); ?><h1><?php the_title(); ?></h1><?php the_content(); ?><?php endwhile; ?></div></main><?php get_footer(); ?>
